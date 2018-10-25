@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SaritaColoniaAvisos</string>
     <string name="title_activity_maps">Map</string>
+    <string name="bt_ingresar">Ingresar</string>
+    <string name="ti_user">user</string>
+    <string name="ti_clave">clave</string>
 </resources>
