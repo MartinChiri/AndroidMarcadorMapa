@@ -4,4 +4,8 @@
     <string name="bt_ingresar">Ingresar</string>
     <string name="ti_user">user</string>
     <string name="ti_clave">clave</string>
+    <string name="etiqueta_titulo">Titulo:</string>
+    <string name="tv_detalle">Detalle:</string>
+    <string name="bt_mapa">Ver mapa</string>
+    <string name="tv_direccion">Direccion:</string>
 </resources>
