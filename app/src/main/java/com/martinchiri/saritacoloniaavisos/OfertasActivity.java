@@ -12,6 +12,7 @@ public class OfertasActivity extends AppCompatActivity {
     RecyclerView rvLista;
     AdaptadorAviso adaptadorAviso;
     ArrayList<Aviso> elementos;
+    //identificadores para intent( hacia detalle)
     public static final String IDTITULO = "idTitulo";
     public static final String IDDETALLE = "idDetalle";
     public static final String IDDIRECCION = "idDireccion";
@@ -23,6 +24,7 @@ public class OfertasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ofertas);
         rvLista = findViewById(R.id.rvLista);
+        //carga los elementos con sus respectivos listeners
         cargarElementos();
     }
 

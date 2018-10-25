@@ -33,6 +33,7 @@ public class DetalleActivity extends AppCompatActivity {
         btMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //intent con latitud longitud y titulo para el marcador en maps
                 Intent transporte=new Intent(getApplicationContext(),MapsActivity.class);
                 transporte.putExtra(OfertasActivity.IDLATITUD,latitud);
                 transporte.putExtra(OfertasActivity.IDLONGITUD,longitud);

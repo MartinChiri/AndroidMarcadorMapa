@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String user=tiUser.getText().toString();
                 String clave=tiClave.getText().toString();
-                if(user.equals("user")&&clave.equals("121212")){
+                if(user.equals("user")&&clave.equals("121212")){//user y clave indicados
                     startActivity(new Intent(getApplicationContext(),OfertasActivity.class)); 
                 }
                 else{
